@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="89" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EKV-p6-w3V">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="89" id="wEx-lU-2Yn" customClass="CustomCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="89"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uhR-8u-QcV">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="tqB-YN-LZI"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHr-5t-sKi">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="57" id="Cii-fw-4Af"/>
+                                                        <constraint firstAttribute="width" constant="57" id="bMy-do-83N"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6zW-t6-8Jx">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="tuM-9t-jvb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xjG-TT-XSz">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="98" id="ePZ-IK-IxH"/>
+                                                        <constraint firstAttribute="height" constant="21" id="oGT-EM-hcm"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="J3v-et-Nag">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="128" id="JZ5-K7-IQn"/>
+                                                        <constraint firstAttribute="height" constant="21" id="zMa-G4-q1O"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dMs-jf-gZY">
+                                                    <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="J3v-et-Nag" firstAttribute="top" secondItem="wEx-lU-2Yn" secondAttribute="top" constant="31" id="BTL-xL-xl1"/>
+                                            <constraint firstItem="IHr-5t-sKi" firstAttribute="leading" secondItem="wEx-lU-2Yn" secondAttribute="leading" constant="9" id="C4b-qT-5ub"/>
+                                            <constraint firstItem="6zW-t6-8Jx" firstAttribute="top" secondItem="J3v-et-Nag" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="FKV-yo-AeY"/>
+                                            <constraint firstItem="dMs-jf-gZY" firstAttribute="top" secondItem="6zW-t6-8Jx" secondAttribute="top" type="default" id="GW1-RT-oIs"/>
+                                            <constraint firstAttribute="trailing" secondItem="xjG-TT-XSz" secondAttribute="trailing" constant="5" id="JOW-qR-ZZ7"/>
+                                            <constraint firstItem="J3v-et-Nag" firstAttribute="leading" secondItem="6zW-t6-8Jx" secondAttribute="leading" type="default" id="KVY-xU-4Gb"/>
+                                            <constraint firstItem="uhR-8u-QcV" firstAttribute="leading" secondItem="IHr-5t-sKi" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="MW9-Bc-WRB"/>
+                                            <constraint firstItem="IHr-5t-sKi" firstAttribute="top" secondItem="wEx-lU-2Yn" secondAttribute="top" constant="15" id="Qav-Td-FMH"/>
+                                            <constraint firstItem="xjG-TT-XSz" firstAttribute="centerY" secondItem="IHr-5t-sKi" secondAttribute="centerY" type="default" id="UJp-Al-csq"/>
+                                            <constraint firstItem="J3v-et-Nag" firstAttribute="trailing" secondItem="6zW-t6-8Jx" secondAttribute="trailing" type="default" id="akA-aD-63Q"/>
+                                            <constraint firstItem="6zW-t6-8Jx" firstAttribute="baseline" secondItem="dMs-jf-gZY" secondAttribute="baseline" type="default" id="dXA-Bd-QNJ"/>
+                                            <constraint firstItem="dMs-jf-gZY" firstAttribute="leading" secondItem="xjG-TT-XSz" secondAttribute="leading" type="default" id="ecJ-U4-2E1"/>
+                                            <constraint firstItem="dMs-jf-gZY" firstAttribute="trailing" secondItem="xjG-TT-XSz" secondAttribute="trailing" type="default" id="myL-Rk-84h"/>
+                                            <constraint firstItem="J3v-et-Nag" firstAttribute="leading" secondItem="wEx-lU-2Yn" secondAttribute="leading" constant="70" id="pg8-fd-Lzp"/>
+                                            <constraint firstItem="uhR-8u-QcV" firstAttribute="top" secondItem="wEx-lU-2Yn" secondAttribute="top" constant="8" id="qFZ-FJ-USS"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="img" destination="IHr-5t-sKi" id="3iW-aT-eIi"/>
+                                            <outlet property="lblDuration" destination="6zW-t6-8Jx" id="p8G-UK-iw3"/>
+                                            <outlet property="lblTitle" destination="uhR-8u-QcV" id="yLN-bU-UuV"/>
+                                            <outlet property="lblcal" destination="J3v-et-Nag" id="WSt-1I-BC7"/>
+                                            <outlet property="lblex" destination="xjG-TT-XSz" id="gm9-nG-mhE"/>
+                                            <outlet property="lblset" destination="dMs-jf-gZY" id="5Mw-sX-uHI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="P7t-R1-XlE"/>
+                                    <outlet property="delegate" destination="2" id="tLS-4k-NOp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EKV-p6-w3V" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="LyV-RH-Yvq"/>
+                            <constraint firstItem="EKV-p6-w3V" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="O7L-Xk-djC"/>
+                            <constraint firstItem="EKV-p6-w3V" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="eSF-qx-1g4"/>
+                            <constraint firstItem="EKV-p6-w3V" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="iu8-2l-jab"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="CustomCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="img" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="lblDuration" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblTitle" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblcal" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblex" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblset" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
